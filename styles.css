@@ -1,0 +1,80 @@
+/* When navigating for main areas use ctrl + f and 
+search for a double pipesign || */
+/* || Imports */
+/* || Variables */
+/* || General styles */
+#main {
+  padding: 0;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item .overlay-image {
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.carousel-item .container {
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+/* || Typography */
+h1, h2, h3 {
+  color: #FF7F00;
+  font-family: "Shadows Into Light", cursive;
+}
+
+h4, h5, h6 {
+  color: #FF7F00;
+}
+
+p {
+  color: #F6F6F6;
+}
+
+/* || Header and Main Navigation */
+.logo {
+  max-width: 50px;
+}
+
+/* || Buttons */
+.btn-primary {
+  background-color: #FF7F00;
+  border-color: rgba(255, 128, 0, 0.8705882353);
+}
+
+.btn-primary:hover {
+  background-color: rgba(255, 128, 0, 0.8705882353);
+  border-color: rgba(255, 128, 0, 0.7450980392);
+}
+
+.btn-secondary {
+  background-color: #808080;
+  border-color: rgba(128, 128, 128, 0.8980392157);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(128, 128, 128, 0.8980392157);
+  border-color: rgba(128, 128, 128, 0.7960784314);
+}
+
+/* || Images */
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=styles.css.map */
